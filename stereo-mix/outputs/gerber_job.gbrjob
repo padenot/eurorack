@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.1.0*%
+%TF.CreationDate,2018-10-14T09:45:26Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Paul Adenot <padenot@mozilla.com>*%
+%TJ.B_ID,stereo-mix*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,149.352000*%
+%TJ.B_Size_Y,22.352000*%
+M02*
