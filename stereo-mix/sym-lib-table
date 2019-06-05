@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name stereo-mix-eagle-import)(type Legacy)(uri ${KIPRJMOD}/stereo-mix-eagle-import.lib)(options "")(descr ""))
+)

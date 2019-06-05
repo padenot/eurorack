@@ -1,25 +1,33 @@
-EAGLE AutoRouter Statistics:
-
-Job           : /Users/padenot/src/eurorack-padenot/stereo-mix/stereo-mix.brd
-
-Start at      : 21:05:14 (03/10/18)
-End at        : 01:00:00 (01/01/70)
-Elapsed time  : 00:00:00
-
-Signals       :    31   RoutingGrid: 6 mil  Layers: 2
-Connections   :    67   predefined:  64 ( 14 Vias )
-
-Router memory :   890340
-
-Passname          : TopRouter
-
-Time per pass     :  00:00:00
-Number of Ripups  :         0
-max. Level        :         0
-max. Total        :         0
-
-Routed            :         0
-Vias              :         0
-Resolution        :    95.5 %
-
-Final             : 95.5% finished. Polygons may have fallen apart.
+update=22/05/2015 07:44:53
+version=1
+last_client=kicad
+[general]
+version=1
+RootSch=
+BoardNm=
+[pcbnew]
+version=1
+LastNetListRead=
+UseCmpFile=1
+PadDrill=0.600000000000
+PadDrillOvalY=0.600000000000
+PadSizeH=1.500000000000
+PadSizeV=1.500000000000
+PcbTextSizeV=1.500000000000
+PcbTextSizeH=1.500000000000
+PcbTextThickness=0.300000000000
+ModuleTextSizeV=1.000000000000
+ModuleTextSizeH=1.000000000000
+ModuleTextSizeThickness=0.150000000000
+SolderMaskClearance=0.000000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.200000000000
+BoardOutlineThickness=0.100000000000
+ModuleOutlineThickness=0.150000000000
+[cvpcb]
+version=1
+NetIExt=net
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]

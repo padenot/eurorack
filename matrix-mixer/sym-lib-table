@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name matrix-mixer-eagle-import)(type Legacy)(uri ${KIPRJMOD}/matrix-mixer-eagle-import.lib)(options "")(descr ""))
+  (lib (name matrix-mixer-rescue)(type Legacy)(uri ${KIPRJMOD}/matrix-mixer-rescue.lib)(options "")(descr ""))
+)
