@@ -1,0 +1,30 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>KiCad BOM Example 5</title>
+    </head>
+    <body>
+    <h1>/Users/padenot/src/eurorack-padenot/matrix-mixer smt/matrix-mixer-smt.sch</h1>
+    <p>2019 June 09, Sunday 12:57:09</p>
+    <p>Eeschema (5.1.2-1)-1</p>
+    <p><b>Component Count:</b>66</p>
+    <table>
+    <tr><th style='width:640px'>Ref</th><th>Qnty</th><th>Value</th><th>Part</th><th>Footprint</th><th>Description</th><th>Vendor</th></tr>
+    <tr><td>C1, C2</td><td>2</td><td>4.7u</td><td>4ms-passives:CAP-ELEC-TH</td><td>4ms_Capacitor:CP_Tantalum_EIA-6032-28_Kemet-C</td><td></td><td></td></tr>
+    <tr><td>C3, C4, C5, C6, C7, C8, C9, C10</td><td>8</td><td>22n</td><td>4ms-passives:C</td><td>4ms_Capacitor:C_0603</td><td>Unpolarized capacitor</td><td></td></tr>
+    <tr><td>D1, D2</td><td>2</td><td>1N4007</td><td>Diode:1N4007</td><td>Diode_SMD:D_SOD-323</td><td>1000V 1A General Purpose Rectifier Diode, DO-41</td><td></td></tr>
+    <tr><td>HPF_1, HPF_2, HPF_3, HPF_4</td><td>4</td><td>SW_SPDT</td><td>4ms-mech:SW_SPDT</td><td>4ms_Switch:Switch_Toggle_SPDT_SubMini</td><td></td><td></td></tr>
+    <tr><td>IC1</td><td>1</td><td>LM324N</td><td>matrix-mixer-smt-rescue:LM324N-matrix-mixer-eagle-import</td><td>4ms_Package_SOIC:SOIC-14_3.9x8.65mm_Pitch1.27mm</td><td></td><td></td></tr>
+    <tr><td>INPUT_A1, OUT_1, OUT_2, OUT_3, OUT_4</td><td>5</td><td>JACK-MONO</td><td>4ms-mech:JACK-MONO</td><td>Eurocad:PJ301M-12</td><td>Jack, Mono with switch and ground</td><td></td></tr>
+    <tr><td>INPUT_B1, INPUT_C1, INPUT_D1</td><td>3</td><td>JACK_MONO</td><td>4ms-mech:JACK-MONO</td><td>Eurocad:PJ301M-12</td><td>Jack, Mono with switch and ground</td><td></td></tr>
+    <tr><td>J1</td><td>1</td><td>EURO_HEADER_10pin</td><td>4ms-headers:EURO_HEADER_10pin</td><td>4ms-footprints:Header_2x05_Pitch2.54mm_TH_-12v_Label</td><td>Connector, double row, 02x08, pin header</td><td></td></tr>
+    <tr><td>R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16</td><td>16</td><td>100k</td><td>4ms-passives:R</td><td>Resistor_SMD:R_0603_1608Metric</td><td></td><td></td></tr>
+    <tr><td>R17, R18, R19, R20, R21, R22, R23, R24</td><td>8</td><td>2k</td><td>Device:R</td><td>4ms_Resistor:R_0603</td><td>Resistor</td><td></td></tr>
+    <tr><td>RV1, RV2, RV3, RV4, RV5, RV6, RV7, RV8, RV9, RV10, RV11, RV12, RV13, RV14, RV15, RV16</td><td>16</td><td>50k</td><td>Device:R_POT</td><td>4ms-footprints:POT-9MM-ALPHA</td><td>Potentiometer</td><td></td></tr><!--TABLEROW-->
+    </table>
+    </body>
+</html>
+    
