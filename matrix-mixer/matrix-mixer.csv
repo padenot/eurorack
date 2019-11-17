@@ -1,0 +1,10 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"RV16,RV15,RV14,RV13,RV12,RV11,RV10,RV9,RV8,RV7,RV6,RV5,RV4,RV3,RV2,RV1";"POT-9MM-ALPHA";16;"R_POT";;;
+2;"R16,R15,R14,R13,R12,R11,R10,R9,R8,R7,R6,R5,R4,R3,R2,R1";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";16;"100k";;;
+3;"MUTE_D1,MUTE_C1,MUTE_B1,MUTE_A1";"SPST-SUB";4;"SW_SPST";;;
+4;"OUT_4,OUT_3,OUT_2,OUT_1,INPUT_A1";"PJ301M-12";5;"JACK-MONO";;;
+5;"INPUT_D1,INPUT_C1,INPUT_B1";"PJ301M-12";3;"JACK_MONO";;;
+6;"IC1";"DIP-14_W7.62mm";1;"LM324N";;;
+7;"C2,C1";"Cap_Electrolytic_TH";2;"4.7u";;;
+8;"D1,D2";"D_DO-41_SOD81_P10.16mm_Horizontal";2;"1N4007";;;
+9;"J1";"Header_2x05_Pitch2.54mm_TH_-12v_Label";1;"EURO_HEADER_10pin";;;
