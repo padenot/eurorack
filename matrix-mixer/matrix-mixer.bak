@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 4ms-mech:JACK-MONO INPUT_B1
-U 1 1 5CF69AF5
-P 1050 2250
-F 0 "INPUT_B1" H 1258 2637 60  0000 C CNN
-F 1 "JACK_MONO" H 1258 2531 60  0000 C CNN
-F 2 "Eurocad:PJ301M-12" H 1050 2250 60  0001 C CNN
-F 3 "" H 1050 2250 60  0000 C CNN
-	1    1050 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L 4ms-headers:EURO_HEADER_10pin J1
 U 1 1 5CF6BD48
 P 2150 6300
@@ -86,36 +75,6 @@ Connection ~ 1200 7600
 Wire Wire Line
 	1200 7600 1200 7700
 $Comp
-L 4ms-mech:JACK-MONO INPUT_A1
-U 1 1 5CF68F69
-P 1100 800
-F 0 "INPUT_A1" H 1308 1187 60  0000 C CNN
-F 1 "JACK-MONO" H 1308 1081 60  0000 C CNN
-F 2 "Eurocad:PJ301M-12" H 1100 800 60  0001 C CNN
-F 3 "" H 1100 800 60  0000 C CNN
-	1    1100 800 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	900  1200 250  1200
-Wire Wire Line
-	250  1200 250  2650
-Wire Wire Line
-	850  2650 250  2650
-Connection ~ 250  2650
-Wire Wire Line
-	250  5250 250  6250
-Connection ~ 250  5250
-Wire Wire Line
-	850  5250 250  5250
-Wire Wire Line
-	250  3950 250  5250
-Connection ~ 250  3950
-Wire Wire Line
-	850  3950 250  3950
-Wire Wire Line
-	250  2650 250  3950
-$Comp
 L 4ms-power:GND #PWR03
 U 1 1 5CFA3936
 P 250 6250
@@ -124,28 +83,6 @@ F 1 "GND" H 255 6077 50  0000 C CNN
 F 2 "" H 250 6250 50  0001 C CNN
 F 3 "" H 250 6250 50  0001 C CNN
 	1    250  6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4ms-mech:JACK-MONO INPUT_D1
-U 1 1 5CF6A12B
-P 1050 4850
-F 0 "INPUT_D1" H 1258 5237 60  0000 C CNN
-F 1 "JACK_MONO" H 1258 5131 60  0000 C CNN
-F 2 "Eurocad:PJ301M-12" H 1050 4850 60  0001 C CNN
-F 3 "" H 1050 4850 60  0000 C CNN
-	1    1050 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4ms-mech:JACK-MONO INPUT_C1
-U 1 1 5CF69DF5
-P 1050 3550
-F 0 "INPUT_C1" H 1258 3937 60  0000 C CNN
-F 1 "JACK_MONO" H 1258 3831 60  0000 C CNN
-F 2 "Eurocad:PJ301M-12" H 1050 3550 60  0001 C CNN
-F 3 "" H 1050 3550 60  0000 C CNN
-	1    1050 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -573,29 +510,6 @@ F 3 "" H 8050 9800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8050 9800 8050 9650
-Wire Wire Line
-	8050 9400 7750 9400
-Wire Wire Line
-	6550 9400 6550 9650
-Wire Wire Line
-	6550 9650 8050 9650
-Connection ~ 8050 9650
-Wire Wire Line
-	8050 9650 8050 9400
-Wire Wire Line
-	5300 9400 5300 9650
-Wire Wire Line
-	5300 9650 6550 9650
-Connection ~ 6550 9650
-Wire Wire Line
-	4100 9400 4100 9650
-Wire Wire Line
-	4100 9650 5300 9650
-Connection ~ 5300 9650
-NoConn ~ 1750 650 
-NoConn ~ 1700 2100
-NoConn ~ 1700 3400
-NoConn ~ 1700 4700
 NoConn ~ 7050 8300
 NoConn ~ 2400 6650
 NoConn ~ 2400 6250
@@ -615,13 +529,13 @@ Text Label 2700 6450 0    50   ~ 0
 GND
 $Comp
 L matrix-mixer-eagle-import:LM324N IC1
-U 3 1 5DD292F8
+U 1 1 5DD292F8
 P 3700 7550
 F 0 "IC1" H 3800 7675 59  0001 L BNN
 F 1 "LM324N" H 3800 7350 59  0001 L BNN
 F 2 "4ms_Package_DIP:DIP-14_W7.62mm" H 3700 7550 50  0001 C CNN
 F 3 "" H 3700 7550 50  0001 C CNN
-	3    3700 7550
+	1    3700 7550
 	0    1    1    0   
 $EndComp
 Text Label 750  6650 0    50   ~ 0
@@ -654,10 +568,6 @@ F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1100 6250 50  0001 C CNN
 	1    1100 6250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 6250 1900 6250
-Wire Wire Line
-	1250 6650 1900 6650
 $Comp
 L Device:R_POT RV5
 U 1 1 5D0CB650
@@ -671,50 +581,6 @@ F 3 "~" H 2850 2100 50  0001 C CNN
 $EndComp
 Text Label 1200 7600 0    50   ~ 0
 GND
-$Comp
-L 4ms-mech:JACK-MONO OUTPUT_D1
-U 1 1 5D520CEE
-P 7350 9200
-F 0 "OUTPUT_D1" H 7558 9587 60  0000 C CNN
-F 1 "JACK-MONO" H 7558 9481 60  0000 C CNN
-F 2 "Eurocad:PJ301M-12" H 7350 9200 60  0001 C CNN
-F 3 "" H 7350 9200 60  0000 C CNN
-	1    7350 9200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 4ms-mech:JACK-MONO OUTPUT_C1
-U 1 1 5D505561
-P 6150 9200
-F 0 "OUTPUT_C1" H 6358 9587 60  0000 C CNN
-F 1 "JACK-MONO" H 6358 9481 60  0000 C CNN
-F 2 "Eurocad:PJ301M-12" H 6150 9200 60  0001 C CNN
-F 3 "" H 6150 9200 60  0000 C CNN
-	1    6150 9200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 4ms-mech:JACK-MONO OUTPUT_B1
-U 1 1 5D4EF90E
-P 4900 9200
-F 0 "OUTPUT_B1" H 5108 9587 60  0000 C CNN
-F 1 "JACK-MONO" H 5108 9481 60  0000 C CNN
-F 2 "Eurocad:PJ301M-12" H 4900 9200 60  0001 C CNN
-F 3 "" H 4900 9200 60  0000 C CNN
-	1    4900 9200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 4ms-mech:JACK-MONO OUTPUT_A1
-U 1 1 5CF6B8BB
-P 3700 9200
-F 0 "OUTPUT_A1" H 3908 9587 60  0000 C CNN
-F 1 "JACK-MONO" H 3908 9481 60  0000 C CNN
-F 2 "Eurocad:PJ301M-12" H 3700 9200 60  0001 C CNN
-F 3 "" H 3700 9200 60  0000 C CNN
-	1    3700 9200
-	0    -1   -1   0   
-$EndComp
 Connection ~ 4700 5100
 Wire Wire Line
 	4300 5100 4700 5100
@@ -792,8 +658,6 @@ Connection ~ 3500 2500
 Wire Wire Line
 	3500 2500 3500 3800
 Wire Wire Line
-	2400 800  2400 1200
-Wire Wire Line
 	2400 1200 2850 1200
 Wire Wire Line
 	2850 1200 2850 800 
@@ -812,8 +676,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 1200 6500 800 
 Connection ~ 5250 1200
-Wire Wire Line
-	2350 2250 2350 2650
 Wire Wire Line
 	2350 2650 2850 2650
 Wire Wire Line
@@ -834,8 +696,6 @@ Wire Wire Line
 	6500 2650 6500 2250
 Connection ~ 5250 2650
 Wire Wire Line
-	2350 3550 2350 3900
-Wire Wire Line
 	2350 3900 2850 3900
 Wire Wire Line
 	2850 3900 2850 3550
@@ -854,8 +714,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 3900 6500 3550
 Connection ~ 5250 3900
-Wire Wire Line
-	2350 4850 2350 5250
 Wire Wire Line
 	2350 5250 2850 5250
 Wire Wire Line
@@ -997,13 +855,13 @@ F 3 "" H 7400 4500 50  0001 C CNN
 $EndComp
 $Comp
 L matrix-mixer-eagle-import:LM324N IC1
-U 1 1 5E8A9134
+U 2 1 5E8A9134
 P 3600 6300
 F 0 "IC1" H 3700 6425 59  0001 L BNN
 F 1 "LM324N" H 3700 6100 59  0001 L BNN
 F 2 "4ms_Package_DIP:DIP-14_W7.62mm" H 3600 6300 50  0001 C CNN
 F 3 "" H 3600 6300 50  0001 C CNN
-	1    3600 6300
+	2    3600 6300
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1106,13 +964,13 @@ F 3 "" H 4900 7550 50  0001 C CNN
 $EndComp
 $Comp
 L matrix-mixer-eagle-import:LM324N IC1
-U 2 1 5F166026
+U 3 1 5F166026
 P 4800 6300
 F 0 "IC1" H 4900 6425 59  0001 L BNN
 F 1 "LM324N" H 4900 6100 59  0001 L BNN
 F 2 "4ms_Package_DIP:DIP-14_W7.62mm" H 4800 6300 50  0001 C CNN
 F 3 "" H 4800 6300 50  0001 C CNN
-	2    4800 6300
+	3    4800 6300
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1202,13 +1060,13 @@ Wire Wire Line
 	5150 6650 5150 6000
 $Comp
 L matrix-mixer-eagle-import:LM324N IC2
-U 3 1 5F178B70
+U 2 1 5F178B70
 P 6150 7550
 F 0 "IC2" H 6250 7675 59  0001 L BNN
 F 1 "LM324N" H 6250 7350 59  0001 L BNN
 F 2 "4ms_Package_DIP:DIP-14_W7.62mm" H 6150 7550 50  0001 C CNN
 F 3 "" H 6150 7550 50  0001 C CNN
-	3    6150 7550
+	2    6150 7550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1309,13 +1167,13 @@ Wire Wire Line
 	6400 6650 6400 6000
 $Comp
 L matrix-mixer-eagle-import:LM324N IC2
-U 2 1 5F189B6B
+U 3 1 5F189B6B
 P 7250 6250
 F 0 "IC2" H 7350 6375 59  0001 L BNN
 F 1 "LM324N" H 7350 6050 59  0001 L BNN
 F 2 "4ms_Package_DIP:DIP-14_W7.62mm" H 7250 6250 50  0001 C CNN
 F 3 "" H 7250 6250 50  0001 C CNN
-	2    7250 6250
+	3    7250 6250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1403,21 +1261,13 @@ Connection ~ 7600 6600
 Wire Wire Line
 	7600 6600 7600 5950
 Wire Wire Line
-	3700 7850 3700 8950
+	3700 7850 3700 8400
 Wire Wire Line
-	4900 7850 4900 8950
+	4900 7850 4900 8400
 Wire Wire Line
-	6150 7850 6150 8950
+	6150 7850 6150 8400
 Wire Wire Line
-	7350 7800 7350 8950
-Wire Wire Line
-	1350 800  2400 800 
-Wire Wire Line
-	1300 2250 2350 2250
-Wire Wire Line
-	1300 3550 2350 3550
-Wire Wire Line
-	1300 4850 2350 4850
+	7350 7800 7350 8400
 Wire Wire Line
 	5950 5100 5950 5950
 Wire Wire Line
@@ -1480,4 +1330,188 @@ Wire Wire Line
 	7650 7450 7700 7400
 Wire Wire Line
 	3900 6200 3900 6250
+Wire Wire Line
+	1250 6650 1900 6650
+Connection ~ 1900 6650
+Wire Wire Line
+	1900 6650 2400 6650
+Wire Wire Line
+	1250 6250 1900 6250
+Wire Wire Line
+	1900 6250 2400 6250
+Connection ~ 1900 6250
+$Comp
+L matrix-mixer-eagle-import:THONKICONNNEW INPUT_A1
+U 1 1 5E4EC9DE
+P 1100 800
+F 0 "INPUT_A1" H 1147 604 59  0000 C CNN
+F 1 "THONKICONNNEW" H 1100 800 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1100 800 50  0001 C CNN
+F 3 "" H 1100 800 50  0001 C CNN
+	1    1100 800 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1300 700  1300 500 
+Wire Wire Line
+	1300 500  250  500 
+$Comp
+L matrix-mixer-eagle-import:THONKICONNNEW INPUT_B1
+U 1 1 5E550C03
+P 1100 2250
+F 0 "INPUT_B1" H 1147 2054 59  0000 C CNN
+F 1 "THONKICONNNEW" H 1100 2250 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1100 2250 50  0001 C CNN
+F 3 "" H 1100 2250 50  0001 C CNN
+	1    1100 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L matrix-mixer-eagle-import:THONKICONNNEW INPUT_C1
+U 1 1 5E55284B
+P 1100 3550
+F 0 "INPUT_C1" H 1147 3354 59  0000 C CNN
+F 1 "THONKICONNNEW" H 1100 3550 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1100 3550 50  0001 C CNN
+F 3 "" H 1100 3550 50  0001 C CNN
+	1    1100 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L matrix-mixer-eagle-import:THONKICONNNEW INPUT_D1
+U 1 1 5E5540B6
+P 1100 4850
+F 0 "INPUT_D1" H 1147 4654 59  0000 C CNN
+F 1 "THONKICONNNEW" H 1100 4850 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 1100 4850 50  0001 C CNN
+F 3 "" H 1100 4850 50  0001 C CNN
+	1    1100 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L matrix-mixer-eagle-import:THONKICONNNEW OUTPUT_A1
+U 1 1 5E555222
+P 3700 9150
+F 0 "OUTPUT_A1" V 3747 9294 59  0000 L CNN
+F 1 "THONKICONNNEW" H 3700 9150 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 3700 9150 50  0001 C CNN
+F 3 "" H 3700 9150 50  0001 C CNN
+	1    3700 9150
+	0    1    1    0   
+$EndComp
+$Comp
+L matrix-mixer-eagle-import:THONKICONNNEW OUTPUT_B1
+U 1 1 5E5591A5
+P 4900 9150
+F 0 "OUTPUT_B1" V 4947 9294 59  0000 L CNN
+F 1 "THONKICONNNEW" H 4900 9150 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 4900 9150 50  0001 C CNN
+F 3 "" H 4900 9150 50  0001 C CNN
+	1    4900 9150
+	0    1    1    0   
+$EndComp
+$Comp
+L matrix-mixer-eagle-import:THONKICONNNEW OUTPUT_C1
+U 1 1 5E55AAF2
+P 6150 9150
+F 0 "OUTPUT_C1" V 6197 9294 59  0000 L CNN
+F 1 "THONKICONNNEW" H 6150 9150 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 6150 9150 50  0001 C CNN
+F 3 "" H 6150 9150 50  0001 C CNN
+	1    6150 9150
+	0    1    1    0   
+$EndComp
+$Comp
+L matrix-mixer-eagle-import:THONKICONNNEW OUTPUT_D1
+U 1 1 5E55C5B6
+P 7350 9150
+F 0 "OUTPUT_D1" V 7397 9294 59  0000 L CNN
+F 1 "THONKICONNNEW" H 7350 9150 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_QingPu_WQP-PJ398SM_Vertical_CircularHoles" H 7350 9150 50  0001 C CNN
+F 3 "" H 7350 9150 50  0001 C CNN
+	1    7350 9150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 8950 3450 8950
+Wire Wire Line
+	3450 8950 3450 9650
+Wire Wire Line
+	3450 9650 4650 9650
+Wire Wire Line
+	4800 8950 4650 8950
+Wire Wire Line
+	4650 8950 4650 9650
+Connection ~ 4650 9650
+Wire Wire Line
+	4650 9650 5900 9650
+Wire Wire Line
+	6050 8950 5900 8950
+Wire Wire Line
+	5900 8950 5900 9650
+Connection ~ 5900 9650
+Wire Wire Line
+	5900 9650 7100 9650
+Wire Wire Line
+	7250 8950 7100 8950
+Wire Wire Line
+	7100 8950 7100 9650
+Connection ~ 7100 9650
+Wire Wire Line
+	7100 9650 8050 9650
+Wire Wire Line
+	1300 4750 1300 4500
+Wire Wire Line
+	1300 4500 250  4500
+Connection ~ 250  4500
+Wire Wire Line
+	250  4500 250  6250
+Wire Wire Line
+	1300 3450 1300 3200
+Wire Wire Line
+	1300 3200 250  3200
+Connection ~ 250  3200
+Wire Wire Line
+	250  3200 250  4500
+Wire Wire Line
+	250  500  250  1900
+Wire Wire Line
+	1300 2150 1300 1900
+Wire Wire Line
+	1300 1900 250  1900
+Connection ~ 250  1900
+Wire Wire Line
+	250  1900 250  3200
+Wire Wire Line
+	2400 1200 2400 900 
+Wire Wire Line
+	2400 900  1300 900 
+Wire Wire Line
+	2350 2650 2350 2350
+Wire Wire Line
+	2350 2350 1300 2350
+Wire Wire Line
+	2350 3900 2350 3650
+Wire Wire Line
+	2350 3650 1300 3650
+Wire Wire Line
+	2350 5250 2350 4950
+Wire Wire Line
+	2350 4950 1300 4950
+Wire Wire Line
+	3800 8950 3800 8400
+Wire Wire Line
+	3800 8400 3700 8400
+Wire Wire Line
+	5000 8950 5000 8400
+Wire Wire Line
+	5000 8400 4900 8400
+Wire Wire Line
+	6250 8950 6250 8400
+Wire Wire Line
+	6250 8400 6150 8400
+Wire Wire Line
+	7450 8950 7450 8400
+Wire Wire Line
+	7450 8400 7350 8400
 $EndSCHEMATC
